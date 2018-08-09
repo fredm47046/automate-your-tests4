@@ -1,5 +1,6 @@
 language: python
-script: echo "A highway patrol is a kind of police"
+script: pytest
+
 
 
 
