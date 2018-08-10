@@ -1,5 +1,12 @@
 language: python
-script: echo "A highway patrol is a kind of police"
+python:
+	-3.6
+	-3.5
+	-3.4
+install: pip install -r requirements.txt
+script: pytest
+
+
 
 
 
